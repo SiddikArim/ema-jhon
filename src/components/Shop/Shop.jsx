@@ -32,6 +32,7 @@ const Shop = () => {
         setCart(savedCart);
     },[products])
     const handleAddToCart = (product) =>{
+        // const newCart =[...cart,product]
         // super advanced module 51
         let newCart =[];
         const exists = cart.find(pd=> pd.id ===product.id);
