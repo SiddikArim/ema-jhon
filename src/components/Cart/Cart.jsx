@@ -19,6 +19,7 @@ const Cart = ({cart}) => {
         totalShipping = totalShipping + product.shipping * product.quantity;
         quantity = quantity + product.quantity;
     }
+    console.log(total);
     const tax = total*7/100;
     const grandTotal = total + totalShipping + tax
     return (
