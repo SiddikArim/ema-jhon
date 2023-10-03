@@ -2,8 +2,8 @@
 /* eslint-disable no-unused-vars */
 
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Product.css'
 const Product = (props) => {
     //onk sadhonar por destructur kora object gular kno tay kno data na thakle seta thakle show na thakle skip [props.product||{}]
